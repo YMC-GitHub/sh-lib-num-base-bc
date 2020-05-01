@@ -8,8 +8,9 @@ starting
 
 - [ ] sh-lib-arr
 - [ ] sh-lib-stack
-- [ ] sh-lib-time-cost
+- [x] sh-lib-time-cost
 
 ## apis
 
 - [x] num_base_bc_10_to_xx
+- [x] num_base_bc_2_to_10
