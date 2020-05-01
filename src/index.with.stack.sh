@@ -52,6 +52,13 @@ function num_base_bc_10_to_xx(){
     #printf  "%08d" "$res"
 }
 
+function num_base_bc_2_to_10(){
+  local from=
+  local res=
+  [ -n "$1" ] && from="$1"
+  ((res=2#$from));
+  echo "$res"
+}
 
 
 # src/index.sh

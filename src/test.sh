@@ -67,9 +67,12 @@ done
 #test_num_base_bc_10_to_xx "8" >> "$THIS_FILE_PATH/test.log.txt"
 #test_num_base_bc_10_to_xx "16" >> "$THIS_FILE_PATH/test.log.txt"
 recordTime "bc.10.to.xx"
-test_num_base_bc_10_to_xx "16"
+test_num_base_bc_10_to_xx "2"
 caculateTime "bc.10.to.xx"
 
+recordTime "bc.2.to.10"
+num_base_bc_2_to_10 "11"
+caculateTime "bc.2.to.10"
 
 ## file-usage
 # ./src/test.sh
