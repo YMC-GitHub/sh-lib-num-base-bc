@@ -8,10 +8,12 @@ some function to handle the convertion of system of numeration for ymc shell lib
 
 - [ ] sh-lib-arr
 - [ ] sh-lib-stack
+- [x] sh-lib-time-cost
 
 ## feat
 
 - [x] num_base_bc_10_to_xx
+- [x] num_base_bc_2_to_10
 
 ```sh
 cat src/index.with.str.sh | grep "function " | sed "s/function */- [x] /g"  | sed "s/(){//g"
